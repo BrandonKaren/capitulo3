@@ -1,0 +1,7 @@
+evaluacion=float(input("digite nota de evaluacion: "))
+quiz=float(input('digite nota de quiz: '))
+quiz2=float(input('dgite nota de quiz2: '))
+quiz3=float(input('digite nota de quiiz3: '))
+trabajo=float(input('digite nota de trabajo final: '))
+notafinal=((evaluacion*0.50)+(((quiz+quiz2+quiz3)/3)*0.20)+(trabajo)*0.30)
+print(notafinal)

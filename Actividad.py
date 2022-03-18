@@ -1,0 +1,5 @@
+ganados=int(input("ingrese el número de partidos ganados"))
+perdidos=int(input("ingrese el número de partidos perdidos"))
+empatados=int(input("ingrese el número de partidos empatados"))
+puntajetotal=((ganados*3)+(empatados*1))
+print("El puntaje total es:", puntajetotal)
