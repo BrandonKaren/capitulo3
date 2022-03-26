@@ -2,7 +2,7 @@ can_fly=bool(input("¿puede volar?"))
 is_human=bool(input("¿es humano?"))
 has_mask=bool(input("¿tiene mascara?"))
 
-if can_fly== isTrue and is_human==True and has_mask==True: 
+if can_fly==True and is_human==True and has_mask==True: 
     print("iroman")
 elif can_fly==True and is_human==True and has_mask==False:
     print("captain marvel")
